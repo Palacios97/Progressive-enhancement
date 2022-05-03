@@ -1,0 +1,141 @@
+/*body*/
+body{
+   
+background: -webkit-radial-gradient(rgb(137, 160, 182), rgb(38, 90, 141));
+background: radial-gradient(rgb(137, 160, 182), rgb(38, 90, 141));
+}
+.block{
+        width: 200px;
+        background-color:rgba(190, 22, 55, 0.534);
+        color: white;
+        position: sticky;
+        top: 87%;
+        left: 90%;
+        display: block;
+        overflow: hidden;
+        text-align: center;
+        padding: 3%;
+        border: 3px solid black;
+        border-radius: 5px;
+    }
+
+/*Header*/
+h1{
+    background-color:rgb(167, 167, 11);
+    font-family: 'Diplomata SC', cursive;
+    font-family: 'Water Brush', cursive;
+   text-align: center;
+    font-size: 60px;
+    text-shadow: 10px;
+}
+/*figure*/
+img{
+    float: left;
+  width: 40%;
+  height: 50%;
+  margin: 1px;
+  padding: 3px;
+  border: black 3px solid;
+  border-radius: 40px;
+}
+/*main*/
+h2{
+ float: inline-end;
+
+ font-family: 'Diplomata SC', cursive;
+    font-family: 'Water Brush', cursive;
+    
+}
+h3{
+    background-color:rgb(167, 167, 11);
+ font-family: 'Diplomata SC', cursive;
+    font-family: 'Water Brush', cursive;
+    font-size: 60px;
+    display:inline-flex
+}
+ ul{
+    
+    font-family: 'Diplomata SC', cursive;
+       font-family: 'Water Brush', cursive;
+       font-size: 30px;
+    float: center;
+    border : 5px;
+    margin:auto;
+    padding: auto;
+}
+p{
+    font-family: serif;
+    font-size:larger;
+    word-spacing: 8px;
+    color: rgb(7, 7, 27);
+}
+
+a{
+    text-decoration: none;
+    color: blue
+}
+a:hover{
+background-color: white;  
+color:black;
+text-decoration-style:none;
+}
+a:active{
+    background-color:white;
+    color: black;
+}
+a:visited{
+  background-color:darkgray;
+color:rgba(190, 22, 55, 0.534);
+ }
+ blockquote.quotes{
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 160%;
+    background-color: white;
+    border-left: 3px;
+    padding-left: 30px;
+    font-family: italic;
+    color: rgb(7, 7, 27);
+}
+table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+ th {
+    background: #eee;
+ }
+strong good {
+    color:red;
+
+}
+.good{
+    color:rgb(24, 224, 17);
+}
+.bad{
+color:red
+}
+.good, .bad{
+    text-transform: uppercase;
+}
+footer {
+    background-color:rgb(41, 37, 37);
+    color:white;
+    text-align: center;
+
+}
+time{
+    color:blanchedalmond;
+}
+
