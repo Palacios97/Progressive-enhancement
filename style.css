@@ -26,7 +26,9 @@ h1{
     font-family: 'Water Brush', cursive;
    text-align: center;
     font-size: 60px;
-    text-shadow: 10px;
+    padding: 3%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 /*figure*/
 img{
