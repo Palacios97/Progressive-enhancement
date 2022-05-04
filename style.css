@@ -41,9 +41,10 @@ img{
 /*main*/
 h2{
  float: inline-end;
-
+text-align: center;
  font-family: 'Diplomata SC', cursive;
     font-family: 'Water Brush', cursive;
+    font-size: 30px;
     
 }
 h3{
@@ -51,17 +52,18 @@ h3{
  font-family: 'Diplomata SC', cursive;
     font-family: 'Water Brush', cursive;
     font-size: 60px;
-    display:inline-flex
+    display:inline-flex;
+
 }
  ul{
     
     font-family: 'Diplomata SC', cursive;
        font-family: 'Water Brush', cursive;
        font-size: 30px;
-    float: center;
+       float: right;
     border : 5px;
-    margin:auto;
-    padding: auto;
+    margin: 10px;
+    width:fit-content;
 }
 p{
     font-family: serif;
@@ -89,7 +91,7 @@ color:rgba(190, 22, 55, 0.534);
  }
  blockquote.quotes{
     width: 50%;
-    margin-top: 80px;
+    margin-top: 10px;
     margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
